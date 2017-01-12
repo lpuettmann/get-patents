@@ -5,8 +5,10 @@ The function `download_patent_files.m` goes to the bulk download page of [Google
 
 | Years  | Format | Size (unzipped) | 
 | ------------- | ------------- | ------------- |
-| 1976-2015  | `.txt` | 98 GB |
+| 1976-2001  | `.txt` | 98 GB |
 | 2002-2015  | `.XML`, `.xml` | 238 GB |
+
+The files for 2001 are available in both formats and I choose the `.txt` format here. 
 
 To use these codes, first define the name of the directory that will hold the files (path to data) and the start and end year, run:
 ```
